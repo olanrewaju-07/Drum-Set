@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<style>
+body{
+  text-align: center;
+  background-color: #283149;
+}
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Aruvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top: 180px;
+}
+.drum{
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 4rem;
+  font-family: 'aruvo', cursive;
+  font-weight: 800;
+  color: #DA0463;
+  text-shadow: 4px 0 #DBEDF3;
+  border-radius: 15px;
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  margin-top: 70px;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+</style>
+<body>
+  <div class="container">
+    <h1 id="title">Drum 🥁 Kit</h1>
+    <div class="drum-set" id="drum-set">
+      <button class="w drum" type="button" style="background:url('images/tom1.png');">w</button>
+      <button class="a drum" type="button" style="background:url('images/tom2.png');">a</button>
+      <button class="s drum" type="button" style="background:url('images/tom3.png');">s</button>
+      <button class="d drum" type="button" style="background:url('images/tom4.png');">d</button>
+      <button class="j drum" type="button" style="background:url('images/snare.png');">j</button>
+      <button class="k drum" type="button" style="background:url('images/crash.png');">k</button>
+      <button class="l drum" type="button" style="background:url('images/kick.png');">l</button>
+    </div>
+  </div>
+ 
+  
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery.js-3.7.1.js"></script>
+  <script src="app.js"></script>
+</body>
+<footer>
+  Made with ❤️ in London.
+</footer>
+</html>
